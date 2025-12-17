@@ -1,16 +1,37 @@
-/* .logos {
-    background-color: #1f252c;
-} */
-
-.intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/code.png");
+header {
+    background-image: url(images/code.png);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cont;
-    height: 350px;
+    object-fit: cover;
+    height: 400px;
     width: 100%;
-    overflow: hidden;
+    align-content: center;
+    animation: animate 20s linear infinite;
+}
+
+header span:after {
+    content: 'SOFTWARE ENGINEER';
+    animation: words 7s infinite;
+    font-size: x-large;
+}
+
+@keyframes words {
+    0%, 33% {
+        content: 'SOFTWARE ENGINEER';
+    }
+
+    34%, 66% {
+        content: 'DATA ENGINEER';
+    }
+
+    67%, 100% {
+        content: 'DATA ANALYST';
+    }
+}
+
+ @keyframes animate {
+    to {
+        background-position: -500px;
+    }
 }
 
 #contact {
