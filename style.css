@@ -2,7 +2,7 @@ header {
     background-image: url(images/code.png);
     background-size: cover;
     object-fit: cover;
-    height: 400px;
+    height: 500px;
     width: 100%;
     align-content: center;
     animation: animate 20s linear infinite;
