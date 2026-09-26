@@ -2,7 +2,7 @@ header {
     background-image: url(images/code.png);
     background-size: cover;
     object-fit: cover;
-    height: 500px;
+    height: 700px;
     width: 100%;
     align-content: center;
     animation: animate 20s linear infinite;
@@ -36,8 +36,5 @@ header span:after {
 
 #contact {
     background-color: #f0f0f0;
-}
-
-.ratio-1x1 {
-    aspect-ratio: 1/1;
+    padding-bottom: 10px;
 }
